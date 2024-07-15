@@ -306,9 +306,15 @@ footer textarea{
         flex-direction: column;
         align-items: center;
     }
-    .resume-container, .secondary-bg,.about-items {
+    .resume-container, .secondary-bg,.about-items,.content,nav , nav ul {
         flex-direction: column;
         align-items: center;
+    }
+    .content{
+        margin: 10px;
+    }
+    .header{
+        background-image: none;
     }
     footer, .about{
         padding: 10px;
@@ -318,5 +324,25 @@ footer textarea{
     }
     footer input[type="text"],  footer input[type="email"], footer textarea{
         width: calc(100% - 40px);
+    }
+    .header img{
+        width: 100%;
+        height: auto;
+    }
+    .navTitle{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    nav{
+        margin: 0px 10px;
+    }
+    nav ul{
+        margin: 0%;
+        padding: 10px;
     }
 }
